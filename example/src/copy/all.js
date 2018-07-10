@@ -1,5 +1,14 @@
 const copy = `
- # Syntax Support
+# Syntax Support
+foo
+
+a  \nb
+
+# code inline
+
+**Foo  Bar**
+
+Hello \`code inline\` code_inline
 
 __Advertisement :)__
 
