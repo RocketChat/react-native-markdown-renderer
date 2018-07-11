@@ -66,10 +66,6 @@ export default class AstRenderer {
    */
   render = nodes => {
     const children = nodes.map(value => this.renderNode(value, []));
-<<<<<<< HEAD
     return rootRenderRule(children, this._style.view);
-=======
-    return rootRenderRule(children, this._style);
->>>>>>> 260fad084a11006201cc657fdc64f54d4625fd38
   };
 }
